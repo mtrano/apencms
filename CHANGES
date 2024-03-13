@@ -1,0 +1,34 @@
+﻿Zwii Changelog
+==============
+
+## Zwii 6.0.3 - 13/02/2013
+
+* #19 : Correction du problème d'affichage des liens dans le menu lorsque deux liens ont pour position la même valeur.
+* #18 : Ajout de l'accesseur getPositionPage($position), retourne la clef de la page à x position.
+* #17 : Correction de l'affichage des templates définis dans les pages.
+
+## Zwii 6.0.2 - 06/01/2013
+
+* #16 : Optimisation du cache depuis le .htaccess.
+* #15 : Ajout d'un cache afin de diminuer le temps d'affichage des données.
+* #14 : Ajout d'une captcha dans le formulaire de contact (merci à Pascal Gibert).
+* #13 : Ajout du titre de la page en mode édition.
+* #12 : Ajout de la langue allemande (merci à Pascal Gibert).
+* #11 : Correction de l'erreur "Headers already sent by" lors du choix d'une page depuis la balise select du panneau d'administration.
+
+## Zwii 6.0.1 - 02/01/2013
+
+* #10 : Changement de parser Markdown, Parsedown remplace PHP Markdown.
+* #9 : Optimisation de l'éditeur Markdown.
+* #8 : Modifications des feuilles de style du système et du template par défaut.
+* #7 : Suppression de normalize.css du template par défaut.
+* #6 : Ajout d'une documentation sur la syntaxe Markdown accessible depuis le plugin d'édition de pages.
+* #5 : Ajout de l'accesseur getTemplate($nom_template), retourne le nom du template si il existe, sinon retourne le nom du template par défaut.
+* #4 : Ajout de la langue espagnole (merci à Diogene).
+* #3 : Correction de la non prise en charge des fichiers de langue des plugins.
+* #2 : Correction de l'affichage du lien courant dans le menu lors d'une redirection vers un plugin comportant plusieurs vues.
+* #1 : Correction de l'option par défaut dans la balise select du panneau d'administration lors d'une redirection vers un plugin.
+
+## Zwii 6.0.0 - 26/12/2013
+
+Première version stable de la nouvelle monture de Zwii réécrite en PHP5 et orientée Markdown.
