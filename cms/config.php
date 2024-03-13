@@ -1,6 +1,6 @@
 <?php return array (
-  'user' => 'weasel',
-  'pass' => 'weaselcms',
+  'user' => 'admin',
+  'pass' => 'password',
   'db' => 'apendata.dat',
   'site_language' => 'en',
   'site_title' => 'APENCMS.COM',
