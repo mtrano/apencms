@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>APENCMS Flatfile Bootstrap5 CMS</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+.navbar {
+  overflow: hidden;
+  background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: Orange;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background:Orange;
+  color: black;
+}
+
+.container {
+	   width: 80%;
+	   padding: 30px;
+}
+    
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+	  <li class="nav-item">
+        <img src="files/apencms_logo_144_bg_white.png"width="40" height="40">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?p=weasel-cms">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?p=search">Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?p=privacy">Privacy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?p=contact">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="p-5 bg-primary text-white text-center">
+  <br>
+  <img src="files/apencms_logo_144_bg_white.png"width="80" height="80">
+  <div class=container><br><h1>{{ $_CMS['site']['site_title'] }}</h1>
+  <h4>{{ $_CMS['site']['site_description'] }}</h4></div> </br>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4"
+ <p> Translate by <b>Google Translate</b><br>
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;hl=en&amp;ie=UTF-8&amp;sl=en&amp;tl=it"><img title="Translate to Italian" alt="Translate to Italian" src="/data/translate/it.gif"></a>
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;hl=en&amp;ie=UTF-8&amp;sl=en&amp;tl=fr"><img title="Translate to French" alt="Translate to French" src="/data/translate/fr.gif"></a> 
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;hl=en&amp;ie=UTF-8&amp;sl=en&amp;tl=de"><img title="Translate to German" alt="Translate to German" src="/data/translate/de.gif"></a> 
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=nl&amp;hl=en&amp;ie=UTF-8"><img title="Translate into Dutch" alt="Translate into Dutch" src="/data/translate/nl.gif"></a> 
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=sv&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Swedish" alt="Translate to Swedish" src="/data/translate/se.gif"></a>  
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=ja&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Japanese" alt="Translate to Japanese" src="/data/translate/jp.gif"></a>
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=pl&amp;hl=en&amp;ie=UTF-8"><img title="Translate in Polish" alt="Translate in Polish" src="/data/translate/pl.gif"></a> 
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=da&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Danish" alt="Translate to Danish" src="/data/translate/dk.gif"></a>  
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=cs&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Czech" alt="Translate to Czech" src="/data/translate/cz.gif"></a>  
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=pt&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Portuguese" alt="Translate to Portuguese" src="/data/translate/pt.gif"></a>  
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=es&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Spanish" alt="Translate to Spanish" src="/data/translate/es.gif"></a> 
+ <a href="http://translate.google.it/translate?u=https://apencms.com/index.php?;sl=en&amp;tl=tr&amp;hl=en&amp;ie=UTF-8"><img title="Translate to Turkish" alt="Translate to Turkish" src="/data/translate/tr.gif"></a>
+ </p>
+
+ <br>
+      <h2>{{ $_CMS['site']['site_title'] }}</h2>
+      <p> {{ $_CMS['menu'] }} </p>
+      <br>
+      <br>
+      
+<h2>Links</h2>
+<ul>
+	<li><a href="https://epmitalia.com">EPMITALIA Website</a></li>
+	<li><a href="https://enexergy.com">ENEXERGY</a></li>
+	<li><a href="https://propeman.com">PROPEMAN</a></li>
+	<li><a href="https://apenlinux.com">APENLinux</a></li>
+	<li><a href="https://apencms.com">APENCMS</a></li>
+	<li><a href="https://micheletrancossi.com">Michele Trancossi</a></li>	
+</ul>
+    </div>
+    <div class="col-sm-8">
+	<h2>{{ $_CMS['page']['title'] }} </h2>
+	<h4>{{ $_CMS['page']['description'] }} </h4>
+	<p>{{ $_CMS['page']['content'] }}</p>				
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 p-4  bg-white text-black text-center">
+		<hr>
+		<small>
+		<br><b>ETHICAL PROPERTY MANAGEMENT ITALIA</b> - Offices - Viale Vittorio Bottego 20, 43043 Borgo Val di Taro (Italia)</b>
+		<br>Tel.: <b>+39.0525.1900457</b> - Cell. <b>+39.3534581170</b> / <b>+39.3331203135 </b>- E-mail: <b><a href="mailto:enexergy@engineer.com?subject=Richiesta%20informazioni%20dal%20sito">enexergy@engineer.com </a></b>	
+		<br>Registered address - Viale Milazzo 8, 430125 Parma (Italia)- P. IVA: 02883590347 - N. REA: PR-274654<br>
+		<br>Copyright (C) 2023-2024, Ethical Property Management Italia s.r.l.
+		<br>Some rights reserved according to <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed">Creative Commons CC BY-NC-ND 4.0 Deed </a></small>
+		<hr>
+		<small></small><small>Powered by <a href="https://apencms.com"><b>APENCMS</b></a> a fork of <b>Weasel CMS</b> and released according to <a href="index.php?p=credits-license">MIT License</a> - <a href="https://github.com/mtrano/apencms"><b>Download from Github</b></a> </small></p>
+		<b>APENCMS</b> is privacy respectfull. It does not acquire any data about visitors. It does not use any cookie. <a href="https://www.cookieserve.com/scan-summary/?url=www.apencms.com" target="_blank"> Test yourself!</a></small>
+		<br>APENCMS is proudly made in <a href="http://www.turismovaltaro.it/">Alta Val Taro (IT)</a></small>
+		<p align="center"><small>Login <a href="cms/">Admin</a></small></p>
+</div>
+
+</body>
+</html>
